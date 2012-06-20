@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="General settings">
+                <ListPreference
+                        android:title="Choose a Community"
+                        android:summary="Select your area for BCTransit schedules"
+                        android:key="cityPref"
+                        android:defaultValue="null" 
+                        android:entries="@array/cityArray"
+                        android:entryValues="@array/cityValues" />
+        </PreferenceCategory>
+        
+          <PreferenceCategory
+                android:title="Updates">
+        <Preference
+                android:title="Update schedules"
+                android:summary="Update the bus schedules to the latest version"
+                android:key="updatePref" />
+        </PreferenceCategory>
+</PreferenceScreen>

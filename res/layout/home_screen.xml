@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Home Screen View
+    Paulino Calderon <paulino@calderonpale.com>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+    	style="@style/ContainerLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="6dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/home_btn_schedule"
+                style="@style/HomeButton"
+                android:onClick="onScheduleClick"
+                android:text="@string/btn_schedule"
+                android:drawableTop="@drawable/home_btn_schedule"/>
+            <Button android:id="@+id/home_btn_settings"
+                style="@style/HomeButton"
+                android:onClick="onSettingsClick"
+                android:text="@string/btn_settings"
+                android:drawableTop="@drawable/home_btn_settings"/>
+            <Button android:id="@+id/home_btn_about"
+                style="@style/HomeButton"
+                android:onClick="onAboutClick"
+                android:text="@string/btn_about"
+                android:drawableTop="@drawable/home_btn_update"/>  </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+         
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+<ImageView 
+   android:id="@+id/tree1_image"
+   android:src="@drawable/tree_1_h" android:paddingBottom="5sp" android:paddingLeft="10sp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:gravity="center" 
+   />
+   <ImageView 
+   android:id="@+id/clouds1_image"
+   android:src="@drawable/clouds_1_h" android:paddingBottom="5sp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:gravity="center"
+   />
+            <ImageView 
+   android:id="@+id/line_image"
+   android:src="@drawable/line_h" android:paddingBottom="5sp" android:paddingLeft="10sp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:gravity="center"
+   />
+      <ImageView 
+   android:id="@+id/bus_image"
+   android:src="@drawable/bus_h"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:gravity="center"
+   />
+            <ImageView 
+   android:id="@+id/tree_2_image"
+   android:src="@drawable/clouds_tree" android:paddingLeft="20sp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" android:gravity="right"
+   />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

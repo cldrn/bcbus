@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="app_name">BCBus</string>
+
+    <string name="description_logo">BCBus</string>
+    <string name="description_home">Home</string>
+    <string name="description_map">Map</string>
+    <string name="description_refresh">Refresh</string>
+ 	<string name="change_direction">Change Direction</string>
+ 	<string name="title_home">BCBus</string>
+    <string name="title_schedule">Schedules</string>
+    <string name="title_display_schedule">Available stops</string>
+    <string name="title_preferences">Settings</string>
+    <string name="title_display_stop">Stop schedule</string>
+    <string name="title_about">About BCBus v1 alpha</string>
+    <string name="title_map">Map</string>
+    <string name="btn_schedule">Schedule</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_alarms">Alarms</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_about">About</string>
+    <string name="btn_starred">Favorites</string>
+    
+     <string name="about_message">Version:1 Alpha\nAuthor: Paulino Calderon\npaulino@calderonpale.com\nhttp://calderonpale.com \n</string>
+    <string name="firstrun_message">To access this module you need to select your BCTransit community in the Settings menu first. I recommend you do this now.</string>
+<string name="firstrun_message_maps">To view the route maps offline you need to select your BCTransit community in the Settings menu first.</string>
+ 
+    <string name="firstrunschedule_message">To have access to the BCTransit schedules offline you need to download the data to your phone or SD Card. Depending on your area the required download may go up to 1 MB.</string>
+   <string name="firstrun_setup_title">BCBus Setup</string>
+   <string name="firstrun_setup_ok">OK, I will do it now</string>
+   <string name="firstrun_setup_cancel">I will do it later</string>
+    <string-array name="cityArray"> 
+    <item>Victoria</item>
+    </string-array>
+    <string-array name="cityValues"> 
+        <item>victoria</item>
+    </string-array>          
+    
+</resources>
